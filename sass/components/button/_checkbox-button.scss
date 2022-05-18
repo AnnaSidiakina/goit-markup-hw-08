@@ -1,0 +1,24 @@
+.checkbox__button {
+    display: block;
+    cursor: pointer;
+    min-height: 50px;
+    min-width: 200px;
+    align-items: center;
+    margin: 30px auto 0 auto;
+    padding: 10px 29px;
+    background-color: $accent-color;
+    color: $second-accent-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transform: scale(1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: none;
+
+    &:hover, &:focus {
+        transform: scale(1.1);
+    }
+}
+

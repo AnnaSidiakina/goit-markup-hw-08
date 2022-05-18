@@ -1,0 +1,30 @@
+.section--no-padding-top {
+    padding-top: 0;
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+.servises-list__item {
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+
+.services-list__picture {
+    position: relative;
+    overflow: hidden;
+}
+.service-list__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    color: $second-accent-color;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+}
