@@ -14,7 +14,17 @@
 }
 .mobile-button.is-open .mobile-button__icon--close {
     display: block;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-button.is-open .mobile-button__icon--menu {
     display: none;
+}
+.mobile-button__icon--menu {
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-button__icon--close:hover,
+.mobile-button__icon--close:focus,
+.mobile-button__icon--menu:hover,
+.mobile-button__icon--menu:focus {
+    fill: $accent-color;
 }
