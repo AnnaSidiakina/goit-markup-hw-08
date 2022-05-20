@@ -5,16 +5,15 @@
         margin-right: 0;
     }
     
-             display: flex;
-            justify-content: center;
-             align-items: center;
+    display: flex;
+
         
 }
 @media (min-width: 768px) and (max-width:1199px) {
     .contact-list {  
         flex-direction: column; 
         margin-left: auto;
-        justify-content: center;
+
 }
     
 }
@@ -65,8 +64,7 @@
                     
                 }
                  display: flex;
-                 justify-content: center;
-                 align-items: center;
+
                         }
                     
                 

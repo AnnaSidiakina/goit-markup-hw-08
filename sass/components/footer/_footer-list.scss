@@ -32,9 +32,15 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: baseline;
     }
 }
 .footer-contacts {
+    margin-bottom: 60px;
+    
+        @media (min-width: 768px) {
+            margin-bottom: 0;
+        }
     @media (min-width: 768px) and (max-width: 1199px) {
         flex: 50%;
     }
@@ -42,10 +48,7 @@
 }
 .footer-list {
     display: block;
-    margin-bottom: 60px;
-    @media (min-width: 768px) {
-        margin-bottom: 0;
-    }
+    
 
 }
 

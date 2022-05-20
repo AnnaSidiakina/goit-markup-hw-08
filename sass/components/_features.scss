@@ -11,6 +11,12 @@
     }
     
 }
+.features-list__title {
+    @media (max-width: 767px) {
+        text-align: center;
+    }
+
+}
 
 .features-list__item {
     position: relative;
