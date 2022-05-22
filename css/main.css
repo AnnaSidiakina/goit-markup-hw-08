@@ -94,7 +94,7 @@ header {
   margin-bottom: 30px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1200px) {
   .section__title {
     font-size: 36px;
     line-height: 1.17;
